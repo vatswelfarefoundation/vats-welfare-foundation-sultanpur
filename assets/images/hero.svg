@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 800'>
+<defs><linearGradient id='g' x1='0' x2='1'><stop stop-color='#140b05'/><stop offset='.55' stop-color='#fb6a00'/><stop offset='1' stop-color='#ffd2a8'/></linearGradient></defs>
+<rect width='1400' height='800' fill='url(#g)'/><circle cx='1080' cy='160' r='190' fill='#fff' opacity='.16'/><circle cx='1180' cy='260' r='260' fill='#fff' opacity='.09'/>
+<path d='M0 610 C220 520 380 580 560 500 C760 410 1000 470 1400 330 L1400 800 L0 800 Z' fill='#24120a' opacity='.55'/>
+<g transform='translate(830,255)' fill='none' stroke='#fff' stroke-linecap='round' stroke-width='24' opacity='.95'><path d='M95 155c0-80 60-145 137-145s137 65 137 145'/><path d='M232 10v330'/><path d='M232 128l-120 78'/><path d='M232 128l120 78'/><path d='M232 340l-82 118'/><path d='M232 340l82 118'/></g>
+<g opacity='.7'><rect x='70' y='80' width='360' height='230' rx='28' fill='#fff' opacity='.11'/><path d='M115 250h265M115 195h215M115 140h245' stroke='#fff' stroke-width='18' stroke-linecap='round' opacity='.45'/></g>
+</svg>
