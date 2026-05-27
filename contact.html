@@ -161,20 +161,55 @@ Sultanpur - 228001
 
 </div>
 
-<form class="contact-form-card">
-<h2>
-    Send Us a Message<br>
-    हमें संदेश भेजें
-</h2>
+<form 
+class="contact-form-card"
+action="https://submit-form.com/YOUR_FORM_ID"
+method="POST"
+>
 
-<input placeholder="Your Name"/>
-<input placeholder="Mobile Number"/>
-<input placeholder="Email Address"/>
-<textarea placeholder="Your Message"></textarea>
+    <h2>
+        Send Us a Message<br>
+        हमें संदेश भेजें
+    </h2>
 
-<button class="btn" type="button">
-    Submit Message
-</button>
+    <input 
+        type="text" 
+        name="name"
+        placeholder="Your Name" 
+        required
+    />
+
+    <input 
+        type="tel" 
+        name="mobile"
+        placeholder="Mobile Number" 
+        required
+    />
+
+    <input 
+        type="email" 
+        name="email"
+        placeholder="Email Address" 
+        required
+    />
+
+    <textarea 
+        name="message"
+        placeholder="Your Message"
+        required
+    ></textarea>
+
+    <!-- Optional -->
+    <input 
+        type="hidden" 
+        name="_redirect" 
+        value="thankyou.html"
+    >
+
+    <button class="btn" type="submit">
+        Submit Message
+    </button>
+
 </form>
 
 </section>
